@@ -40,7 +40,7 @@ app.use(function(request,response,next){
     })
 
 
-//add data to database using the client api
+//add biodata to database using the client api
 app.post('/biodata/adddata',function(request,response){
     console.log(request.body)
     const firstname = request.body.firstname
